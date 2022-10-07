@@ -36,11 +36,18 @@ body {
   font-size: 18px;
   text-align: center;
 }
-img {
+.wireframe_home {
   display: block;
   margin: 0 auto;
   max-width: 300px;
 }
+
+.wireframe_page2 {
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
