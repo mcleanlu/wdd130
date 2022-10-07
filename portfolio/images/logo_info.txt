@@ -1,7 +1,7 @@
 
             Fonts used: SourceSansPro-Black 
 
-            Colors used: F4D504,000000  
+            Colors used: 076AE0,FFFFFF  
 
               
         
