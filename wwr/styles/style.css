@@ -239,6 +239,14 @@ h4 {
     box-shadow: 5px 5px 10px #0b4c5a;
 }
 
+/* Rivers page */
+
+.rivers-page {
+    margin: 50px 20%;
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
 @media screen and (max-width: 900px) {
 
     #hero,
