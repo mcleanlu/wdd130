@@ -1,50 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luke McLean</title>
+    <title>Luke McLean Portfolio</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>
-    <header>
-        <a id="logo_link" href="index.html">
-            <img class="logo" src="images/LukeMcLean-logos.jpeg" alt="Luke McLean logo">
-        </a>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="cybersecurity.html">Cybersecurity</a>
-            <a href="project-management.html">Project Management</a>
-        </nav>
-    </header>
-    <main class="home-grid">
-        <section class="introduction">
-            <h1>Know Me More</h1>
-            <p>
-                I'm Luke McLean, a Cyber Security Engineer and Analyst. <br> <br>
-                I possess a wide skill set in different IT domains, a Cloud enthusiast with strong development skills on AWS
-                services, an expert programmer with Python, C++, and Javascript, and I'm an ITIL certified project manager who
-                emphasis philosophies in Agile style approaches to production and planning. <br> <br>
-                I also keep learning new technologies with a wide knowledge set in software, IT infrastructure, cloud based
-                systems, and DevOps. Security and assurance is key for my approach to a company's ability to grow and feel safe in
-                an ever growing technical market. <br> <br>
-                I offer skills in coding, penetration testing, encrypting network traffic, digital forensics, and security
-                automation. I also am profecient in project management with expertise in Strategy development, Digital production,
-                and ITIL certified workflow. <br>
-              </p>
 
-              <h2>Cybersecurity<a id="logo_link" href="cybersecurity.html">
-                <img class="logo" src="images/medium-shot-man-holding-device.jpg" alt="Intro image">
-            </a></h2>
-            <h2>Project Management<a id="logo_link" href="project-management.html">
-                <img class="logo" src="images/business-corporate-protection-safety-security-concept.jpg" alt="Intro image">
-            </a></h2>
-        </section>
-    </main>
-    <footer>
-        <p><a href="site-plan.html"
-            target="_blank">Site Plan</a></p>
-    </footer>
+<body>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/Luke McLean-logos_transparent_crop.png" alt="Luke McLean">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="cybersecurity.html">Cybersecurity</a>
+                <a href="project-management.html">Project Planning</a>
+            </nav>
+        </header>
+        <div id="hero">
+            <section id="hero-msg">
+                <h1 class="home-title">Know Me More</h1>
+                <h4>I'm Luke McLean, a Cyber Security Engineer and Analyst. <br> <br>
+                  I possess a wide skill set in different IT domains, a Cloud enthusiast with strong development skills on AWS
+                  services, an expert programmer with Python, C++, and Javascript, and I'm an ITIL certified project manager who
+                  emphasis philosophies in Agile style approaches to production and planning. <br> <br>
+                  I also keep learning new technologies with a wide knowledge set in software, IT infrastructure, cloud based
+                  systems, and DevOps. Security and assurance is key for my approach to a company's ability to grow and feel safe in
+                  an ever growing technical market. <br> <br>
+                  I offer skills in coding, penetration testing, encrypting network traffic, digital forensics, and security
+                  automation. I also am profecient in project management with expertise in Strategy development, Digital production,
+                  and ITIL certified workflow. <br></h4>
+            </section>
+        </div>
+        <main class="home-grid">
+            <section class="skills-card">
+                <a href="cybersecurity.html">
+                    <img class="card-img" src="images/medium-shot-man-holding-device.jpg" alt="cybersecurity image">
+                </a>
+                <h2>Cybersecurity</h2>
+            </section>
+            <section class="camping-card">
+                <img class="card-img" src="images/business-corporate-protection-safety-security-concept.jpg" alt="project management image">
+                <h2>Project Management</h2>
+            </section>
+            <div id="background"></div>
+            <section class="msg">
+                <h2>Get In Touch</h2>
+                <div id="feedback"></div>
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+              <li>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name" />
+              </li>
+              <li>
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail" name="user_email" />
+              </li>
+              <li>
+                <label for="msg">Message:</label>
+                <textarea id="msg" name="user_message"></textarea>
+              </li>
+              <li class="button">
+                <button type="submit">Send your message</button>
+              </li>
+            </ul>
+          </form>
+            </section>
+        </main>
+        <footer>
+          <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/circle-facebook-icon_small.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter-logo-2429.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram-logo-8869.png" alt="instagram icon">
+            </a>
+        </div>
+        <p>Luke McLean</p>
+        <p><a href="site-plan.html">Site Plan</a></p>
+        </footer>
+    </div>
 </body>
 </html>
