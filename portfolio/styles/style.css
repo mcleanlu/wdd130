@@ -29,12 +29,17 @@ footer {
     align-items: center;
 }
 
+h3 {
+    font-size: 2em;
+}
+
 footer h3 {
     color: #000000;
 }
 
-footer a {
-    color: #000000;
+footer a,
+footer p {
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -168,6 +173,7 @@ main section img {
 .home-grid {
     display: grid;
     grid-template-columns: 10fr;
+    color: #F9EBF0;
 }
 
 h4 {
@@ -183,38 +189,56 @@ h4 {
     width: 100%;
 }
 
+.cyber-img-main {
+    width: 100%;
+    height: 90%;
+}
+
+
 #logo_link {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
 }
 
-.skills-card,
-.camping-card,
-.rapids-card {
+.cybersecurity {
+    color: #F9EBF0;
+}
+
+.cybersecurity-card,
+.projectmanagement-card {
     margin: 200px 0;
 }
 
-.skills-card {
+.cybersecurity-card {
     grid-column: 2/4;
     grid-row: 2/3;
 }
 
-.camping-card {
+.projectmanagement-card {
     grid-column: 5/7;
     grid-row: 2/3;
 }
 
-.rapids-card {
-    grid-column: 8/10;
-    grid-row: 2/3;
+.cyber-skills {
+    display: grid;
+    grid-template-columns: 27% auto auto;
+    column-gap: 50px;
+    padding: 0px 50px;
 }
+
+.cyber-img-skills {
+    width: 80%;
+    object-fit: cover;
+}
+
 
 .card-img {
     border: 10px solid #d9c2a3;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #0b4c5a;
     width: 100%;
+    height: 100%;
 }
 
 .card-img:hover {
@@ -222,23 +246,19 @@ h4 {
     transform: scale(1.1);
 }
 
-.mountains {
-    width: 100%;
-    grid-column: 2/7;
-    grid-row: 5/8;
-    box-shadow: 5px 5px 10px #0b4c5a;
+.cyber-img {
+    display: grid;
+    grid-template-columns: 10fr;
 }
 
-/* Rivers page */
-
-.rivers-page {
-    margin: 50px 20%;
+.cyber-img-1 {
+    grid-row: 2/3;
     grid-column: 2/4;
 }
 
-.img-rivers {
-    border: 10px solid #d9c2a3;
-    box-shadow: 5px 5px 10px #0b4c5a;
+.cyber-img-2 {
+    grid-row: 2/3;
+    grid-column: 5/7;
 }
 
 form {
@@ -360,11 +380,21 @@ button {
         text-shadow: none;
     }
 
-    .skills-card,
-    .camping-card,
+    .cybersecurity-card,
+    .projectmanagement-card,
     .rapids-card {
         margin: 50px auto;
         width: 60%;
+    }
+
+    .cyber-skills {
+        display: block;
+        padding: 0px 50px;
+    }
+
+    .cyber-skills h2 {
+        margin: 20px;
+
     }
 
     #background {
