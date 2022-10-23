@@ -214,10 +214,6 @@ h4 {
     border: 10px solid #d9c2a3;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #0b4c5a;
-}
-
-.card-img,
-.mountains {
     width: 100%;
 }
 
@@ -238,7 +234,6 @@ h4 {
 .rivers-page {
     margin: 50px 20%;
     grid-column: 2/4;
-    grid-row: 2/3;
 }
 
 .img-rivers {
@@ -376,7 +371,6 @@ button {
         display: none;
     }
 
-    .mountains,
     .msg {
         width: 80%;
         display: block;
